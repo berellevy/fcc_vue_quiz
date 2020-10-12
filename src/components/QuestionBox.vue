@@ -64,6 +64,9 @@
       selectedAnswer(index) {
         this.selectedIndex = index;
       },
+      submitAnswer() {
+        
+      },
       shuffleAnswers() {
         let answers = [...this.currentQuestion.incorrect_answers, this.currentQuestion.correct_answer]
         this.shuffledAnswers = _.shuffle(answers)
