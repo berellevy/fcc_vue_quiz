@@ -1,5 +1,13 @@
 # fcc_vue_quiz
 
+## notes
+
+needs a lot of refactoring: 
+- hover over selected answered component changes bc from red/green to #EEE
+- after answered can change answer selection
+- shuffling is stateful, can be functional
+- and more!
+
 ## Project setup
 ```
 npm install
